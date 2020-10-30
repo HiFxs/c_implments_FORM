@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/test/form.h
+bits/stdc++.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+map
+-
+hash_map
+-
+
+C:/Users/Administrator/Desktop/test/main.cpp
+iostream
+-
+form.h
+C:/Users/Administrator/Desktop/test/form.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
